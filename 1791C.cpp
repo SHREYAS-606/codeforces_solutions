@@ -22,7 +22,7 @@ int main(){
             r--;
 
         }
-        if(n%2==0 && l==r){
+        if(a%2==0 && l==r){
             cout<<0<<endl;
         }else{
             cout<<r-l+1<<endl;
