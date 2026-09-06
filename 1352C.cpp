@@ -7,11 +7,11 @@ int main(){
     cin>>n;
 
     for(int i=0;i<n;i++){
-        int a,b;
+        long long a,b;
         cin>>a>>b;
-        int k=a-1;
-        int p=b/k;
-        int f=a*p;
+        long long k=a-1;
+        long long p=b/k;
+        long long f=a*p;
         if(b%k==0){
             cout<<f-1<<endl;
         }else{

@@ -22,6 +22,7 @@ int main() {
         maxi=max(maxi,r-l+1);
         r++;
     }
+    cout<<maxi<<endl;
 
     return 0;
 }
