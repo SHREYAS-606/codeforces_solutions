@@ -24,7 +24,7 @@ int main(){
             }
         }
         cout<<ans<<endl;
-        v={0};
+        fill(v.begin(), v.end(), 0);
 
        }
        return 0;
