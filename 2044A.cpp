@@ -11,15 +11,7 @@ int main()
     {
         int a;
         cin >> a;
-        int count = 0;
-        for (int j = 1; j < a; j++)
-        {
-            if (a - j >= 1 && a - j <= n)
-            {
-                count++;
-            }
-        }
-        cout<<count<<endl;
+        cout<<a-1<<endl;
     }
     return 0;
 }
