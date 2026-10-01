@@ -10,13 +10,13 @@ int main()
     {
         int k;
         cin>>k;
-        long long sum=0;
-        for(int j=1;j<k;j++){
-            int l;
-            cin>>l;
-            sum+=l;
-        }
-        cout<<-1*sum<<endl;
+        int ans=k/4;
+        k=k%4;
+        ans+=k/2;
+        cout<<ans<<endl;
+
+        
+
         
     }
     return 0;
