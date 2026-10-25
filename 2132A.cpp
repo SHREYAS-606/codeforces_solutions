@@ -21,7 +21,7 @@ int main(){
        string r="";
        for(int i=0;i<p;i++){
         if(c[i]=='V'){
-            l+=b[i];
+            l=b[i]+l;
         }else{
             r+=b[i];
         }
